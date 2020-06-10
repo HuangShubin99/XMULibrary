@@ -1,0 +1,17 @@
+E:\xmuproject\数据库系统实验7\XMULibrary\XMULibrary\obj\Debug\XMULibrary.csprojAssemblyReference.cache
+E:\xmuproject\数据库系统实验7\XMULibrary\XMULibrary\obj\Debug\XMULibrary.Admin.resources
+E:\xmuproject\数据库系统实验7\XMULibrary\XMULibrary\obj\Debug\XMULibrary.User.resources
+E:\xmuproject\数据库系统实验7\XMULibrary\XMULibrary\obj\Debug\XMULibrary.Properties.Resources.resources
+E:\xmuproject\数据库系统实验7\XMULibrary\XMULibrary\obj\Debug\XMULibrary.csproj.GenerateResource.cache
+E:\xmuproject\数据库系统实验7\XMULibrary\XMULibrary\obj\Debug\XMULibrary.csproj.CoreCompileInputs.cache
+E:\xmuproject\数据库系统实验7\XMULibrary\XMULibrary\bin\Debug\XMULibrary.exe.config
+E:\xmuproject\数据库系统实验7\XMULibrary\XMULibrary\bin\Debug\XMULibrary.exe
+E:\xmuproject\数据库系统实验7\XMULibrary\XMULibrary\bin\Debug\XMULibrary.pdb
+E:\xmuproject\数据库系统实验7\XMULibrary\XMULibrary\obj\Debug\XMULibrary.exe
+E:\xmuproject\数据库系统实验7\XMULibrary\XMULibrary\obj\Debug\XMULibrary.pdb
+E:\xmuproject\数据库系统实验7\XMULibrary\XMULibrary\obj\Debug\XMULibrary.XMULibrary.resources
+E:\xmuproject\数据库系统实验7\XMULibrary\XMULibrary\obj\Debug\XMULibrary.Register.resources
+E:\xmuproject\数据库系统实验7\XMULibrary\XMULibrary\obj\Debug\XMULibrary.AddBook.resources
+E:\xmuproject\数据库系统实验7\XMULibrary\XMULibrary\obj\Debug\XMULibrary.AddReader.resources
+E:\xmuproject\数据库系统实验7\XMULibrary\XMULibrary\obj\Debug\XMULibrary.EditReader.resources
+E:\xmuproject\数据库系统实验7\XMULibrary\XMULibrary\obj\Debug\XMULibrary.EditBook.resources
