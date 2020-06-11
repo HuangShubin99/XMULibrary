@@ -69,6 +69,7 @@
             this.loginpwd.Location = new System.Drawing.Point(367, 313);
             this.loginpwd.Multiline = true;
             this.loginpwd.Name = "loginpwd";
+            this.loginpwd.PasswordChar = '*';
             this.loginpwd.Size = new System.Drawing.Size(386, 37);
             this.loginpwd.TabIndex = 1;
             this.loginpwd.TextChanged += new System.EventHandler(this.loginpwd_TextChanged);
