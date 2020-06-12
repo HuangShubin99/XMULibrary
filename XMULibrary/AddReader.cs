@@ -62,7 +62,14 @@ namespace XMULibrary
             }
         }
 
-        private void confirm_Click(object sender, EventArgs e)
+
+
+        private void AddReader_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void confirm_Click_1(object sender, EventArgs e)
         {
             try
             {
@@ -78,11 +85,6 @@ namespace XMULibrary
                 return;
             }
             this.Close();
-        }
-
-        private void AddReader_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

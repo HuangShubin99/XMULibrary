@@ -44,31 +44,15 @@ namespace XMULibrary
                                     insert into loginTable values('{6}', '{7}', '{8}') 
                                     commit tran",
                                     inputAccount, inputPassword, inputAccount, inputAccount, role, inputAccount, inputAccount, inputPassword, identity.Text);
-            //string addLoginSql = "create login " + inputAccount + " with password='" + inputPassword + "', default_database=XMULibrary";
-            //string addLoginSql = String.Format("create login {0} with password='{1}',default_database=XMULibrary",inputAccount,inputPassword);
-            //string addUserSql = "EXEC sp_grantdbaccess '" + inputAccount + "','" + inputAccount + "'";
-            //string addUserSql = String.Format("EXEC sp_grantdbaccess '{0}','{1}'", inputAccount, inputAccount);
-            //string addRoleSql = "EXEC sp_addrolemember ";
-            //if (inputIdentity == 0) addRoleSql += "'admin'";
-            //else addRoleSql += "'reader'";
-            //addRoleSql = addRoleSql + ",'" + inputAccount + "'";
+
 
 
             SqlCommand registerCmd = new SqlCommand(registerTran, con);
-            //SqlCommand addLoginCmd = new SqlCommand(addLoginSql, con);
-            //SqlCommand addUserCmd = new SqlCommand(addUserSql, con);
-            //SqlCommand addRoleCmd = new SqlCommand(addRoleSql, con);
-
-            //string result = "注册成功！";
 
             try
             {
                 con.Open();
                 registerCmd.ExecuteNonQuery();
-                //addLoginCmd.ExecuteNonQuery();
-                //addUserCmd.ExecuteNonQuery();
-                //addRoleCmd.ExecuteNonQuery();
-                //insertUserCmd.ExecuteNonQuery();
             }
             catch (SqlException exception)
             {
@@ -83,12 +67,6 @@ namespace XMULibrary
             finally
             {
                 registerCmd.Dispose(); //对SqlCommand进行处理，回收
-                //addLoginCmd.Dispose();
-                //addUserCmd.Dispose();
-                //addRoleCmd.Dispose();
-                //insertUserCmd.Dispose();
-                //con.Close();//连接关闭
-                //if (MessageBox.Show(result, "提示") == DialogResult.OK) this.Close();
             }
 
             string addRole = String.Format("exec sp_addsrvrolemember '{0}', 'securityadmin' ", inputAccount);

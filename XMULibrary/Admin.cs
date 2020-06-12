@@ -254,11 +254,6 @@ namespace XMULibrary
             this.booklist.DataSource = Query("select * from bookTable where ISBN like '%" + bookid2 + "%' and BookName like '%" + bookname + "%' and Publisher like '%" + publisher + "%' and Author like '%" + author + "%' and CollectionNum like '%" + collectionNum + "%' and CanBorrowNum like '%" + canborrowNum + "%' and CanBorrow like '%" + canborrow + "%' ").Tables["ds"];
         }
 
-        private void button6_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void overdue_Click(object sender, EventArgs e)
         {
             try
@@ -280,6 +275,11 @@ namespace XMULibrary
         }
 
         private void tabPage2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage3_Click(object sender, EventArgs e)
         {
 
         }

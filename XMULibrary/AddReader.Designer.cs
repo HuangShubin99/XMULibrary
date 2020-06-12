@@ -57,6 +57,7 @@
             this.confirm.TabIndex = 52;
             this.confirm.Text = "确认";
             this.confirm.UseVisualStyleBackColor = true;
+            this.confirm.Click += new System.EventHandler(this.confirm_Click_1);
             // 
             // txt_sex
             // 

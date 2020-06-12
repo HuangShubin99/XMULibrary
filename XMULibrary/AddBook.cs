@@ -61,7 +61,14 @@ namespace XMULibrary
             InitializeComponent();
         }
 
-        private void confirm_Click(object sender, EventArgs e)
+
+
+        private void AddBook_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void confirm_Click_1(object sender, EventArgs e)
         {
             try
             {
@@ -75,7 +82,7 @@ namespace XMULibrary
 
                 string sql = String.Format(@"insert into bookTable
                                         values( '{0}','{1}','{2}','{3}','{4}','{5}','{6}')",
-                                       bookid, bookname, publisher, author, collectionNum, canborrowNum,canborrow);
+                                       bookid, bookname, publisher, author, collectionNum, canborrowNum, canborrow);
                 ExecuteSql(sql);
                 MessageBox.Show("添加成功");
             }
@@ -84,11 +91,6 @@ namespace XMULibrary
                 MessageBox.Show(exception.Message);
             }
             this.Close();
-        }
-
-        private void AddBook_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
